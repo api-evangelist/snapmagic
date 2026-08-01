@@ -1,7 +1,27 @@
 aid: snapmagic
-name: Snapmagic
-description: Snapmagic is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/snapmagic.png
+name: SnapMagic
+description: SnapMagic (formerly SnapEDA) is a Silicon Valley company building an AI
+  operating system for electronics design, used by more than two million hardware engineers
+  worldwide. Its SnapMagic Search product provides free, ready-to-use PCB footprints,
+  schematic symbols, and 3D models for millions of electronic components, complete with
+  datasheets and real-time pricing, plus plugins for Altium, KiCad, Eagle, Cadence,
+  Fusion 360, and other CAD tools. SnapMagic also offers an AI copilot for circuit design
+  (circuit auto-completion, natural-language schematic interaction, and bill-of-materials
+  optimization) and an HTTP API that gives programmatic access to its symbol and footprint
+  library. The company is backed by Y Combinator and serves component suppliers through
+  syndication, analytics, and viewer tools.
 url: https://raw.githubusercontent.com/api-evangelist/snapmagic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +31,62 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
-apis: []
+- Electronics
+- PCB Design
+- Electronic Design Automation
+- CAD
+- Components
+- Symbols
+- Footprints
+- Hardware
+- Semiconductors
+- AI
+- Search
+apis:
+- name: SnapMagic Search API
+  description: HTTP API that gives programmatic access to SnapMagic Search's library of
+    electronic component symbols, PCB footprints, and 3D models. Access is provided on
+    request via the get-api page.
+  humanURL: https://www.snapeda.com/get-api/
+  baseURL: https://www.snapeda.com
+  properties:
+  - type: APIReference
+    url: https://www.snapeda.com/get-api/
+common:
+- type: DomainSecurity
+  url: security/snapmagic-domain-security.yml
+- type: Website
+  url: https://www.snapmagic.com/
+- type: Portal
+  url: https://www.snapeda.com/
+- type: Documentation
+  url: https://support.snapeda.com/
+- type: APIReference
+  url: https://www.snapeda.com/get-api/
+- type: GettingStarted
+  url: https://www.snapeda.com/about/import/
+- type: Support
+  url: https://support.snapmagic.com/en/
+- type: Blog
+  url: https://blog.snapeda.com/
+- type: GitHubOrganization
+  url: https://github.com/snapeda
+- type: Pricing
+  url: https://www.snapeda.com/pricing/
+- type: SignUp
+  url: https://www.snapeda.com/account/signup/
+- type: TermsOfService
+  url: https://www.snapeda.com/about/terms/
+- type: PrivacyPolicy
+  url: https://www.snapeda.com/about/privacy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
