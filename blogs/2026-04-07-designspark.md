@@ -1,0 +1,7 @@
+---
+title: "DesignSpark"
+url: "https://support.snapmagic.com/en/articles/14469158-designspark"
+date: "2026-04-07"
+feed_url: "https://support.snapmagic.com/en/feed.xml"
+---
+
