@@ -1,0 +1,26 @@
+# Front Door AI Index — snapmagic — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: snapmagic
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.snapmagic.com
+  final_host: www.snapmagic.com
+  ownership: own
+  owner: snapmagic
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 4
+  host_score: 4
+  density: 11.33
+  words: 353
+  tiers:
+    agentic: 2
+    core: 2
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 2
+    copilot: 2
