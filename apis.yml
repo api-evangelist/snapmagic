@@ -85,6 +85,8 @@ apis:
   - type: APIReference
     url: https://www.snapeda.com/get-api/
 common:
+- type: Plans
+  url: plans/snapmagic-plans-pricing.yml
 - type: DomainSecurity
   url: security/snapmagic-domain-security.yml
 - type: Website
