@@ -1,0 +1,49 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.snapeda.com/pricing/
+sources:
+- https://www.snapeda.com/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-call
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: 5 Credits
+published: true
+note: Credit packs for InstaPart symbol/footprint creation delivered in 1 business day; vendor listing
+  and large-volume pricing by custom quote.
+plan_count: 5
+currency: USD
+plans:
+- name: SnapMagic Search
+  price_text: 100% free
+  period: none
+  unit: search engine access
+  included_quota: Symbols, footprints, 3D models
+- name: 5 Credits
+  price_text: $135 (save $10)
+  currency: USD
+  period: one-time
+  unit: 5 InstaPart credits
+  included_quota: 5 credits, never expire
+- name: 10 Credits
+  price_text: $250 (save $40)
+  currency: USD
+  period: one-time
+  unit: 10 InstaPart credits
+  included_quota: 10 credits, never expire
+- name: 20 Credits
+  price_text: $400 (save $180)
+  currency: USD
+  period: one-time
+  unit: 20 InstaPart credits
+  included_quota: 20 credits, never expire
+- name: Component Vendors / larger needs
+  price_text: Contact Us
+  period: none
