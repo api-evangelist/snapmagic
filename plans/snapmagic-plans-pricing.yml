@@ -47,3 +47,50 @@ plans:
 - name: Component Vendors / larger needs
   price_text: Contact Us
   period: none
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - metered
+  units:
+  - credit
+  plans:
+  - name: SnapMagic Search
+    access: other
+    model: unstated
+    model_how: derived
+    units:
+    - other
+    periods:
+    - none
+  - name: 5 Credits
+    access: other
+    model: metered
+    model_how: derived
+    units:
+    - credit
+    periods:
+    - one-time
+  - name: 10 Credits
+    access: other
+    model: metered
+    model_how: derived
+    units:
+    - credit
+    periods:
+    - one-time
+  - name: 20 Credits
+    access: other
+    model: metered
+    model_how: derived
+    units:
+    - credit
+    periods:
+    - one-time
+  - name: Component Vendors / larger needs
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
